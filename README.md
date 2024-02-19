@@ -39,8 +39,7 @@ Dart Sdk adalah software development kid yang fungsinya untuk mengenali bahasa y
  
 
 ## 5. Sdk Flutter
-Sdk flutter ini adalah software developmemt kid yang fungsinya untuk membuild aplikasi flutter, bdanya dengan dart, jika dart hanya ke bahasa nya jika flutter ke component dan lifecycle nya untuk donwload silahkan menuju ke [link ini :]
-(https://flutter.dev/docs/get-started/install)
+Sdk flutter ini adalah software developmemt kid yang fungsinya untuk membuild aplikasi flutter, bdanya dengan dart, jika dart hanya ke bahasa nya jika flutter ke component dan lifecycle nya untuk donwload silahkan menuju ke [link ini :](https://flutter.dev/docs/get-started/install)
 
 untuk tutorial installasi youtube silahkan [ikuti ini :](https://www.youtube.com/watch?v=asNdz10WR6w&t=173s)
 
