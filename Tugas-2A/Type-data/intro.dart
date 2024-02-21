@@ -77,7 +77,6 @@ void main() { // print variabel
 
 
 // yang benar seperti ini :
-
 void main() {
   final umur = 21;
   
