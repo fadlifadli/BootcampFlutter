@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'tugas/tugas9/telegram.dart';
+import 'package:test_instalasi_flutter/tugas/tugas10/HomeScreen.dart';
+// import 'tugas/tugas9/telegram.dart';
+import 'tugas/tugas10/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 57, 5, 146)),
         useMaterial3: true,
       ),
-      home: Telegram(),
+      home: Homescreen(),
     );
   }
 }
