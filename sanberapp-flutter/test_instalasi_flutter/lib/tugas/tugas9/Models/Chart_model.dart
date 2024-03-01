@@ -9,7 +9,7 @@ class ChartModel {
 
 final List<ChartModel> items = [
   ChartModel(
-      name: 'hilmy',
+      name: 'ANSHA',
       message: 'Hello Hilmy',
       time: '12.00',
       profileUrl:

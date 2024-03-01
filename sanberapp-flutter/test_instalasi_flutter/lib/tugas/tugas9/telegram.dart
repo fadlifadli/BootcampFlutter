@@ -24,18 +24,19 @@ Widget build(BuildContext context) {
         return ListTile(
           leading: CircleAvatar(
             radius: 28,
-            backgroundImage: NetworkImage(items[i].profileUrl),
+            backgroundImage: NetworkImage(items[i].profileUrl!),
           ),
-          title: Text(items[i].name, style: TextStyle(fontWeight: FontWeight.bold),)
-          subtitle: Text(items[i].message),
-          trailing: Text(items[i].time),
+          title: Text(items[i].name!, style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          subtitle: Text(items[i].message!),
+          trailing: Text(items[i].time!),
         );
       },
       separatorBuilder: (ctx, i){
           return Divider();
         },itemCount: items.length),
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.create. color: Colors.white),
+          child: Icon(Icons.create, color: Colors.white),
           backgroundColor: Color(0xff65a9e0),
           onPressed: (){}
         )
