@@ -9,13 +9,13 @@ class _DrawwerScreenState extends State<DrawerScreen> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView(
-        children: <Widget>[
-          UserAccountsDrawerHeader(
-            accountName: Text("Muhammad Fadhli Azhari Chadiri"),
-            currentAccountPicture:
-                CircleAvatar(backgroundImage: AssetImage("assets/img/hilmy.jpg")),
-                accountEmail: Text("fadli.azhari.elka@gmail.com"),
+        child: ListView(
+      children: <Widget>[
+        UserAccountsDrawerHeader(
+          accountName: Text("Achmad Hilmy Firdaus"),
+          currentAccountPicture:
+              CircleAvatar(backgroundImage: AssetImage("assets/img/hilmy.jpg")),
+          accountEmail: Text("achmad.hilmy@sanbercode.com"),
           ),
           DrawerListTile(
             iconData: Icons.group,

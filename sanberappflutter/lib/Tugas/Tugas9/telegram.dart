@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'DrawerScreen.dart';
-import 'Chart_model.dart';
+import 'Models/Chart_model.dart';
 
 class Telegram extends StatefulWidget {
   @override
@@ -8,7 +8,7 @@ class Telegram extends StatefulWidget {
 }
 
 class _TelegramState extends State<Telegram> {
-  @override 
+  @override
   Widget build(BuildContext context) {
     return Scaffold (
       appBar: AppBar(
@@ -32,7 +32,7 @@ class _TelegramState extends State<Telegram> {
               items[i].name!,
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
-            Subtitle: Text(items[i].message!),
+            subtitle: Text(items[i].message!),
             trailing: Text(items[i].time!),
           );
         },
@@ -41,7 +41,7 @@ class _TelegramState extends State<Telegram> {
         },
         itemCount: items. length),
       floatingActionButton: FloatingActionButton(
-        child: icon(Icons.create, color: Colors.white),
+        child: Icon(Icons.create, color: Colors.white),
         backgroundColor: Color(0xFF65a9e0),
         onPressed: () {},
       ),
