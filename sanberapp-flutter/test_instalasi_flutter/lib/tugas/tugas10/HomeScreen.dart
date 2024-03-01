@@ -46,6 +46,9 @@ class Homescreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 10),
+                Text("Recommended Place",
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
+                ),
                 SizedBox(
                     height: 200,
                     child: GridView.count(
