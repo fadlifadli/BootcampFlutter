@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import '../tugas11/page/dashboard.dart';
+import '../tugas11/page/chat.dart';
+import '../tugas11/page/setting.dart';
+import '../tugas11/page/profile.dart';
+
+
 
 class Homescreen extends StatelessWidget {
   @override
