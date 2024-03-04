@@ -12,7 +12,7 @@ class _ChatState extends State<Chat> {
     return Scaffold(
       appBar: AppBar(title: Text('Chat')),
       body: Center(
-        child: Text('Chat Screen', style: TextStyle (fontSize: 40)),
+        child: Text('Chat Screen', style: TextStyle (fontSize: 30)),
         ),
     );
   }

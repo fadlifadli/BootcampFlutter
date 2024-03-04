@@ -12,7 +12,7 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
       appBar: AppBar(title: Text('Profile')),
       body: Center(
-        child: Text('Profile Screen', style: TextStyle (fontSize: 40)),
+        child: Text('Profile Screen', style: TextStyle (fontSize: 30)),
         ),
     );
   }

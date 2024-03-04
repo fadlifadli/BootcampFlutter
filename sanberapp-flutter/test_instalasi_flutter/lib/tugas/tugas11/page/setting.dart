@@ -12,7 +12,7 @@ class _SettingState extends State<Setting> {
     return Scaffold(
       appBar: AppBar(title: Text('Setting')),
       body: Center(
-        child: Text('Setting Screen', style: TextStyle (fontSize: 40)),
+        child: Text('Setting Screen', style: TextStyle (fontSize: 30)),
         ),
     );
   }
