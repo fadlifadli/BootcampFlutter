@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class Profile extends StatefulWidget {
   @override
-  _ProfileState createdState() => _ProfileState();
+  _ProfileState createState() => _ProfileState();
 }
 
 class _ProfileState extends State<Profile> {

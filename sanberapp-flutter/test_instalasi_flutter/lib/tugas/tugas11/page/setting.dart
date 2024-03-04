@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class Setting extends StatefulWidget {
   @override
-  _SettingState createdState() => _SettingState();
+  _SettingState createState() => _SettingState();
 }
 
 class _SettingState extends State<Setting> {

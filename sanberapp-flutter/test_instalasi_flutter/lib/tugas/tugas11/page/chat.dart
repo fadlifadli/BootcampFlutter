@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class Chat extends StatefulWidget {
   @override
-  _ChatState createdState() => _ChatState();
+  _ChatState createState() => _ChatState();
 }
 
 class _ChatState extends State<Chat> {
