@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:test_instalasi_flutter/tugas/tugas11/profile.dart';
 import 'package:test_instalasi_flutter/tugas/tugas11/home2.dart';
 import 'package:test_instalasi_flutter/tugas/tugas11/setting.dart';
+import 'package:test_instalasi_flutter/tugas/tugas11/logout.dart';
+
 
 
 void main() => runApp (MyApp());
@@ -18,6 +20,7 @@ class _MyAppState extends State<MyApp> {
     Home2(),
     Profile(),
     Setting(),
+    Logout(),
 
   ];
 
@@ -56,12 +59,12 @@ class MyDrawer extends StatelessWidget {
   final Function onTap;
   
   MyDrawer({
-    this.onTap
+    required this.onTap
   });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: MediaQuery.of(context).size.width*0.8,
       child: Drawer(
         child: Column(
@@ -79,7 +82,7 @@ class MyDrawer extends StatelessWidget {
                       width: 60,
                       height: 60,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage('img/Fadhli.jpg'),
+                        backgroundImage: AssetImage('assets/img/Fadhli.jpg'),
                       ),
                     ),
                     SizedBox(height: 15,),
@@ -121,7 +124,7 @@ class MyDrawer extends StatelessWidget {
             ),ListTile(
               leading: Icon(Icons.exit_to_app),
               title: Text('Logout'),
-              onTap: ()=>onTap(context,0),
+              onTap: ()=>onTap(context,3),
             ),
           ],
         ),
