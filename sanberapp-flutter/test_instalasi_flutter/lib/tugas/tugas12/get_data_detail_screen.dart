@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:test_instalasi_flutter\lib\tugas\tugas12\get_detail_screen.dart';
+import 'package:test_instalasi_flutter/tugas/tugas12/get_detail_screen.dart';
 
 class GetDataScreen extends StatefulWidget {
   const GetDataScreen({Key? key}) : super(key: key);
