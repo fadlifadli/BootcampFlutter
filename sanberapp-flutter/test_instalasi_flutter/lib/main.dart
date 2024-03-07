@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_instalasi_flutter/tugas/tugas13/live/pages/user_page.dart';
 
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: UserPage(),
     );
   }
 }
