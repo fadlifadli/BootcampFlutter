@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 class AppController extends GetxController {
   // ignore: deprecated_member_use
   var getposts = <Postmodel>[].obs;
-  Services services = Services();
+  Service services = Service();
   var postloading = true.obs;
   @override
   void onInit(){
@@ -17,7 +17,7 @@ class AppController extends GetxController {
       postloading.value = true;
       var result = await services.getallposts();
       if (result != null) {
-        getpost.assignAll(result);
+        getposts.assignAll(result);
       }else{
         print("null");
       }
